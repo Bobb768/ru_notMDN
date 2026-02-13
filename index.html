@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>notMDN</title>
+    <!-- Подключение CSS -->
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="img/logotip2.png" type="image/png">
+</head>
+
+<body>
+    <!-- НАВИГАЦИЯ -->
+    <nav class="navigation">
+        <div class="nav" id="logotip"><img src="img/logotip.png" alt="Логотип сайта (M)"></div>
+        <div class="nav"><a href="https://www.w3schools.com/html/default.asp" target="_blank">HTML</a></div>
+        <div class="nav"><a href="https://www.w3schools.com/css/default.asp" target="_blank">CSS</a></div>
+        <div class="nav"><a href="https://www.w3schools.com/js/default.asp" target="_blank">JS</a></div>
+        <div class="nav"><a href="https://www.w3schools.com/js/js_api_intro.asp" target="_blank">Web API</a></div>
+        <div class="nav"><a href="https://developer.mozilla.org/ru/docs/Web">Все</a></div>
+        <div class="nav"><a href="https://developer.mozilla.org/ru/docs/Learn_web_development/Getting_started" target="_blank">Учёба</a></div>
+        <div class="nav"><a href="https://developer.mozilla.org/en-US/observatory" target="_blank">Инструменты</a></div>
+        <div class="nav"><a href="https://developer.mozilla.org/en-US/about" target="_blank">О сайте</a></div>
+    </nav>
+
+    <!-- HEADER: ПРИВЕТСТВИЕ + Подзаголовок -->
+    <header class="grid-container-head">
+        <h1 class="box box-1"> ДОБРО ПОЖАЛОВАТЬ</h1>
+        <div class="box box-2"> 
+            <div class="head-text-1">Найдите практические руководства и ресурсы для улучшения своих навыков программирования.</div>
+            <div class="head-text-2">"Ресурсы для разработчиков, созданные разработчиками"</div>
+        </div>
+    </header>
+
+    <!-- ПОИСК -->
+    <section class="grid-container-search">
+        <div class="box box-3">
+            <input type="button" value="Поиск" id="search">
+        </div>
+        <div class="box box-4">
+            <input type="search" placeholder="Искать уроки, справочники, примеры" id="text-for-search">
+        </div>
+    </section>
+
+     <!-- ОСНОВНОЙ КОНТЕНТ -->
+    <main>
+        <!-- Первая основная сетка -->
+        <section class="main-section">
+            <h2 class="section-title">Основы веб-разработки</h2>
+
+            <div class="wrapper-1">
+                <div class="grid-container-main">
+                    <div class="box box-5">
+                        <div class="box-head">О HTML</div>
+                        <div class="box-main">
+                            <p>
+                                HTML (HyperText Markup Language) — это 
+                                стандартный язык для структурирования 
+                                контента в интернете. 
+                                Элементы представлены тегами, которые 
+                                определяют заголовки, абзацы, ссылки, 
+                                изображения и многое другое.
+                            </p>
+                            <p>
+                                Изучение основ HTML позволяет 
+                                разработчикам создавать корректно 
+                                структурированные веб-страницы 
+                                и понимать основы веб-дизайна.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="box box-6">
+                        <div class="box-head">О CSS</div>
+                        <div class="box-main">
+                            <p>
+                                CSS (Cascading Style Sheets) используется 
+                                для оформления и расположения элементов на страницах. 
+                                Он управляет шрифтами, цветами, отступами 
+                                и позиционированием элементов.
+                            </p>
+                            <p>
+                                Освоение CSS позволяет создавать визуально 
+                                привлекательные, адаптивные и удобные 
+                                веб-сайты.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="box box-7">
+                        <div class="box-head">О JS</div>
+                        <div class="box-main">
+                            JavaScript — это язык сценариев, который 
+                            добавляет интерактивность и динамическое 
+                            поведение на веб-страницы. 
+                            Он может обновлять контент, обрабатывать события 
+                            и взаимодействовать с серверами.
+                        </div>
+                    </div>
+
+                    <div class="box box-8">
+                        <div class="box-head">О сайте</div>
+                        <div class="box-main">
+                            Этот сайт создан для обмена знаниями 
+                            и ресурсами для изучения веб-разработки. 
+                            Он разработан так, чтобы быть простым, 
+                            практичным и удобным для новичков и 
+                            профессионалов.
+                        </div>
+                    </div>
+
+                    <div class="box box-9">
+                        <div class="box-head">О жизни</div>
+                        <div class="box-main">
+                            <p>
+                                Жизнь разработчика — это постоянное 
+                                обучение и улучшение навыков. 
+                                Эксперименты с кодом, чтение 
+                                документации и создание проектов 
+                                — ключевые шаги к росту.
+                            </p>
+                            <p>
+                                Сотрудничество, любопытство и 
+                                умение решать проблемы делают 
+                                процесс разработки 
+                                увлекательным и творческим.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Вторая основная сетка -->
+        <section class="main-section">
+            <h2 class="section-title">Руководство по началу работы</h2>
+
+            <div class="wrapper-2">
+                <div  class="grid-container-main-2">
+                    <div class="box box-10">
+                        <div class="box-head">Шаг 1</div>
+                        <div class="box-main">
+                            <p>
+                                Начните с настройки вашей среды разработки. 
+                                Установите необходимые редакторы, браузеры 
+                                и расширения для программирования.
+                            </p>
+                            <p>
+                                Проверьте, что ваша система имеет всё нужное 
+                                ПО, и что файлы корректно открываются и сохраняются.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="box box-11">
+                        <div class="box-head">Шаг 2</div>
+                        <div class="box-main">
+                            <p>Следуйте этим шагам для подготовки к кодированию:</p>
+                                <ol>
+                                    <li>Запустите редактор кода</li>
+                                    <li>Создайте новую папку проекта</li>
+                                    <li>Откройте HTML-файл</li>
+                                    <li>Подключите CSS-стили</li>
+                                    <li>Проверьте работу, запустив в браузере</li>
+                                </ol>
+                        </div>
+                    </div>
+
+                    <div class="box box-12">
+                        <div class="box-head">Шаг 3</div>
+                        <div class="box-main">
+                            <p>
+                                Начните писать базовый HTML и CSS, 
+                                чтобы структурировать страницу и 
+                                оформить элементы. Экспериментируйте с цветами, 
+                                шрифтами и макетами.
+                            </p>
+                            <div class="box-12-image">
+                                <a href="https://www.w3schools.com/html/html_css.asp" target="_blank">
+                                    <img src="img/CSS_HTML_logotip.png" alt="Ссылка w3schools - CSS и HTML">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="box box-13">
+                        <div class="box-head">Что дальше?</div>
+                        <div class="box-main">
+                            <p>
+                                Когда вы освоитесь с базовыми страницами, 
+                                переходите к JavaScript и интерактивности. 
+                                Изучайте, как обрабатывать ввод пользователя, 
+                                работать с DOM и добавлять динамический контент.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="box box-14">
+                        <div class="box-head">Узнайте больше о фронтенде</div>
+                        <div class="box-main">
+                            <a href="https://ru.wikipedia.org/wiki/Front-end_web_development" target="_blank">
+                                <img src="img/wiki_logotip.png" alt="Ссылка Wikipedia - фронтенд" id="wiki-logotip">
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="box box-15">
+                        <div class="box-head">Завершение!</div>
+                        <div class="box-main">
+                            <p>
+                                Спасибо за посещение этого ресурса!
+                            </p>
+                            <p>
+                                Надеемся, вы нашли полезные советы и примеры, 
+                                которые помогут улучшить ваши навыки. 
+                                Продолжайте практиковаться, создавать проекты 
+                                и изучать новые технологии, чтобы расти как веб-разработчик.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- ФУТЕР -->
+    <footer class="grid-container-footer">
+        <div class="box footer-1">
+            <div class="footer-head">notMDN</div>
+            <div class="footer-main">
+                <p>
+                    notMDN предлагает понятные уроки и 
+                    справочники по HTML, CSS и JavaScript. 
+                    Это помогает разработчикам быстро 
+                    понять концепции и применить их 
+                    в реальных проектах.
+                </p>
+                <br>
+                <p id="C">© 2026 notMDN</p>
+            </div>
+        </div>
+
+        <div class="box footer-2">
+            <div class="footer-head">Для посетителей</div>
+            <div class="footer-main">
+                <ul>
+                    <li>Изучение HTML, CSS и JavaScript</li>
+                    <li>Практические уроки по кодированию</li>
+                    <li>Примеры для начинающих</li>
+                    <li>Руководство по адаптивному дизайну</li>
+                    <li>Советы по созданию веб-проектов</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="box footer-3">
+            <div class="footer-head">Контакты</div>
+            <div class="footer-main">
+                <p>Минск, Беларусь</p>
+                <p>+375 (25) 123-45-67</p>
+                <p>support@notMDN.by</p>
+                <br>
+                <p>
+                    Этот сайт предоставляет уроки и 
+                    учебные материалы, чтобы помочь 
+                    разработчикам эффективно понимать 
+                    современные веб-технологии.
+                </p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
